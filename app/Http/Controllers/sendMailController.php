@@ -10,7 +10,7 @@ class sendMailController extends Controller
 {
     public function index()
     {
-        Mail::to('abdulmuktinurrohman@gmail.com')->send(new sendMail());
+        Mail::to('your-email@gmail.com')->send(new sendMail());
         return "<b>Succes Send Mai</b>";
         // return redirect()->back()->with('success', 'Email has been sent successfully!');
     }
