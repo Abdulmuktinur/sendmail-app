@@ -18,10 +18,6 @@ MAIL_FROM_NAME="${APP_NAME}"
 
 ## Configure config/mail.php
 ```
-'mailgun' => [
-            'transport' => 'mailgun',
-        ],
-``` update to ```
 'gmail' => [
             'transport' => 'gmail',
         ],
