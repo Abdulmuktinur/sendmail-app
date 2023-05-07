@@ -21,13 +21,12 @@ MAIL_FROM_NAME="${APP_NAME}"
 'mailgun' => [
             'transport' => 'mailgun',
         ],
-```
-update to 
-```
+``` update to ```
 'gmail' => [
             'transport' => 'gmail',
         ],
 ```
+
 
 ```
 'from' => [
